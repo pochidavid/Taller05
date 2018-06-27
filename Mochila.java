@@ -20,7 +20,7 @@ public class Mochila {
 				int option1 = n < 1 ? n : opt[n-1][w];
 				int option2 = Integer.MIN_VALUE;
 				
-				if(peso[n]<=w){ 
+				if(peso[n]<=w){ //ASOFJAJFA
 						option2 = valor[n]+opt[n-1][w-peso[n]];//ENTRA ACA EN LA PRIMERA ITERACION Y TIRA ERROR FUERA DE RANGO, NO DEBERIA
 				}
 				
